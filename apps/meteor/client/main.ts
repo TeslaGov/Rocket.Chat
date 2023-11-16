@@ -11,7 +11,7 @@
   if (!hasLoginToken || !hasUserId || !hasValidExpiration) {
     const ssoEndpoint = RegExp(/https?:\/\/(.+\.)?ckm.test[:/]/).exec(window.location.href)
       ? window.location.href.replace(/^(https?:\/\/).+$/, "$1ckm.test/api/goddard/auth/sso")
-      : window.location.href.replace(/^(https?:\/\/)([^/]+).+$/, "$1www-api.$2/goddard/auth/sso");
+      : window.location.href.replace(/^(https?:\/\/)chat\.([^/]+).+$/, "$1www-api.$2/goddard/auth/sso");
 
     console.log("Attempting RC SSO via Goddard...", ssoEndpoint);
 

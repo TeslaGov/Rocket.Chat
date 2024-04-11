@@ -319,11 +319,11 @@ export class APIClass<TBasePath extends string = ''> extends Restivus {
 	}
 
 	protected async shouldVerifyRateLimit(route: string, userId: string): Promise<boolean> {
-		return (
-			rateLimiterDictionary.hasOwnProperty(route) &&
-			settings.get<boolean>('API_Enable_Rate_Limiter') === true &&
-			(process.env.NODE_ENV !== 'development' || settings.get<boolean>('API_Enable_Rate_Limiter_Dev') === true) &&
-			!(userId && (await hasPermissionAsync(userId, 'api-bypass-rate-limit')))
+		return rateLimiterDictionary.hasOwnProperty(route) && (
+			settings.get<boolean>('API_Enable_Rate_Limiter') === true ||
+			(process.env.NODE_ENV === 'development' && settings.get<boolean>('API_Enable_Rate_Limiter_Dev') === true) ||
+			userId == null ||
+			!(await hasPermissionAsync(userId, 'api-bypass-rate-limit'))
 		);
 	}
 

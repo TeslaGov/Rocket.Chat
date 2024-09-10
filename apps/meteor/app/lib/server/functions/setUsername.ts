@@ -145,9 +145,4 @@ export const _setUsername = async function (userId: string, u: string, fullUser:
 	return user;
 };
 
-export const setUsername = RateLimiter.limitFunction(_setUsername, 1, 60000, {
-	async 0() {
-		const userId = Meteor.userId();
-		return !userId || !(await hasPermissionAsync(userId, 'edit-other-user-info'));
-	},
-});
+export const setUsername = _setUsername;

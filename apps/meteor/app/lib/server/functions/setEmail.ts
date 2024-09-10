@@ -85,9 +85,4 @@ const _setEmail = async function (userId: string, email: string, shouldSendVerif
 	return result;
 };
 
-export const setEmail = RateLimiter.limitFunction(_setEmail, 1, 60000, {
-	async 0() {
-		const userId = Meteor.userId();
-		return !userId || !(await hasPermissionAsync(userId, 'edit-other-user-info'));
-	}, // Administrators have permission to change others emails, so don't limit those
-});
+export const setEmail = _setEmail;

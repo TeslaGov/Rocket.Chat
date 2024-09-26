@@ -49,9 +49,4 @@ export const _setRealName = async function (userId: string, name: string, fullUs
 	return user;
 };
 
-export const setRealName = RateLimiter.limitFunction(_setRealName, 1, 60000, {
-	async 0() {
-		const userId = Meteor.userId();
-		return !userId || !(await hasPermissionAsync(userId, 'edit-other-user-info'));
-	}, // Administrators have permission to change others names, so don't limit those
-});
+export const setRealName = _setRealName;

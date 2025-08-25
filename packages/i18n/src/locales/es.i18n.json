@@ -564,6 +564,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "Habilitar traducción automática",
   "AutoTranslate_Enabled_Description": "Habilitar la traducción automática permite a los usuario con licencia de `traducción automática`  que todos los mensajes se traduzcan automáticamente al idioma seleccionado. Se pueden aplicar cargos.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-Subscription-Key",

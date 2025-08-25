@@ -555,6 +555,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "啟用自動翻譯",
   "AutoTranslate_Enabled_Description": "啟用自動翻譯功能後，擁有`自動翻譯` 權限的用戶可以將所有訊息自動翻譯為所選語言。可能需要費用。",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "微軟",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-訂閱金鑰",

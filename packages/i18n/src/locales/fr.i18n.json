@@ -557,6 +557,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "Activer la traduction automatique",
   "AutoTranslate_Enabled_Description": "Activer la traduction automatique permet aux utilisateurs disposant de l'autorisation `auto-translate`  de voir l'ensemble des messages traduits automatiquement dans leur langue. Des frais peuvent s'appliquer.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Clé d'abonnement Ocp-Apim",

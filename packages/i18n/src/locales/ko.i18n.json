@@ -504,6 +504,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "자동 번역 사용",
   "AutoTranslate_Enabled_Description": "자동 번역을 사용하면 `자동 번역 ` 권한이있는 사용자가 모든 메시지를 자동으로 선택한 언어로 번역 할 수 있습니다. 요금이 부과 될 수 있습니다.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim- 구독 키",

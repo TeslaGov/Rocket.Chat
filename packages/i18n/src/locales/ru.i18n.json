@@ -614,6 +614,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "Включить авто-перевод",
   "AutoTranslate_Enabled_Description": "Включение автоматического перевода позволит пользователям с разрешением на `автоматический перевод `  переводить все сообщения на их язык. Может взиматься оплата.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-Subscription-Key",

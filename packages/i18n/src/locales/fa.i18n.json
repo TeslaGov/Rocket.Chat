@@ -412,6 +412,7 @@
   "AutoTranslate_Change_Language_Description": "تغییر زبان خودکار ترجمه پیام های قبلی را ترجمه نمی کند.",
   "AutoTranslate_Enabled": "فعالسازی خودکار ترجمه",
   "AutoTranslate_Enabled_Description": "فعال کردن ترجمه-خودکار به افراد با سطح دسترسی `auto-translate`  اجازه میدهد تا به صورت خودکار تمام پیام ها به زبان انتخاب شده خود ترجمه شود. هزینه ها ممکن است اعمال شود.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "گوگل",
   "AutoTranslate_ServiceProvider": "ارائه دهنده خدمات",
   "Auto_Load_Images": "تصاویر با قابلیت بارگیری خودکار",

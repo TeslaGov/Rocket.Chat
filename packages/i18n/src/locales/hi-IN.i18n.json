@@ -654,6 +654,7 @@
   "AutoTranslate_Enabled": "स्वतः-अनुवाद सक्षम करें",
   "AutoTranslate_Enabled_Description": "ऑटो-ट्रांसलेशन सक्षम करने से 'ऑटो-ट्रांसलेट' अनुमति वाले लोगों को सभी संदेशों को स्वचालित रूप से उनकी चयनित भाषा में अनुवाद करने की अनुमति मिल जाएगी। शुल्क लागू हो सकता है.",
   "AutoTranslate_Enabled_for_room": "#{{roomName}} के लिए स्वतः-अनुवाद सक्षम किया गया",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "गूगल",
   "AutoTranslate_Microsoft": "माइक्रोसॉफ्ट",
   "AutoTranslate_Microsoft_API_Key": "Ocp-एपिम-सदस्यता-कुंजी",

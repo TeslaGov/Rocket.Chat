@@ -722,6 +722,7 @@
   "AutoTranslate_Enabled": "Habilitar tradução automática",
   "AutoTranslate_Enabled_Description": "Habilitar a tradução automática implicará em permitir que as pessoas com a permissão `auto-translate`  tenham todas as suas mensagens automaticamente traduzidas para seu idioma. Taxas podem ser cobradas.",
   "AutoTranslate_Enabled_for_room": "Tradução automática habilitada para #{{roomName}}",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-Subscription-Key",

@@ -504,6 +504,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "启用自动翻译",
   "AutoTranslate_Enabled_Description": "启用自动翻译功能后，拥有`auto-translate` 权限的用户可以将所有消息自动翻译成用户选择的语言。这可能需要付费。",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "谷歌",
   "AutoTranslate_Microsoft": "微软",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-Subscription-Key",

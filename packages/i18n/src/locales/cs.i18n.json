@@ -468,6 +468,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "Povolit automatický překlad",
   "AutoTranslate_Enabled_Description": "Aktivace automatického překladu umožní lidem, kteří mají `auto-translate `  právo, aby všechny zprávy byly automaticky přeloženy do vybraného jazyka. Mohou být účtovány poplatky.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-Subscription-Key",

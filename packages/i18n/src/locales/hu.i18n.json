@@ -600,6 +600,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "Automatikus fordítás engedélyezése",
   "AutoTranslate_Enabled_Description": "Az automatikus fordítás engedélyezése lehetővé teszi az `automatikus fordítás`  jogosultsággal rendelkező személyeknek, hogy az összes üzenetet automatikusan lefordítsák a kiválasztott nyelveikre. Díjak felszámítása lehetséges.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-Subscription-Key",

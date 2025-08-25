@@ -557,6 +557,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "Schakel automatisch vertalen in",
   "AutoTranslate_Enabled_Description": "Als u automatische vertaling inschakelt, kunnen mensen met de `automatische vertaling` toestemming, de mogelijkheid krijgen om alle berichten automatisch  krijgen in de geselecteerde taal te laten vertalen. Er kunnen kosten van toepassing zijn.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-abonnementssleutel",

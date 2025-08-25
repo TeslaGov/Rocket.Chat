@@ -557,6 +557,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "تمكين الترجمة التلقائية",
   "AutoTranslate_Enabled_Description": "سيسمح تمكين الترجمة التلقائية للأشخاص الذين لديهم إذن `الترجمة التلقائية`  بترجمة جميع الرسائل تلقائيًا إلى لغتهم المحددة. قد يتم تطبيق الرسوم.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "مفتاح اشتراك Omp-Apim",

@@ -714,6 +714,7 @@
   "AutoTranslate_Enabled": "Aktiver automatisk oversettelse",
   "AutoTranslate_Enabled_Description": "Aktivering av automatisk oversettelse gjør at folk med `automatisk oversetter` tillatelse til å få alle meldinger automatisk oversatt til deres valgte språk. Avgifter kan gjelde, se [Googles dokumentasjon](https://cloud.google.com/translate/pricing)",
   "AutoTranslate_Enabled_for_room": "Automatisk oversettelse er aktivert for #{{roomName}}",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "Ocp-Apim-Abonnementsnøkkel",

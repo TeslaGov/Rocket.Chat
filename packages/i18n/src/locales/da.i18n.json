@@ -528,6 +528,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "Aktivér auto-oversættelse",
   "AutoTranslate_Enabled_Description": "Aktivering af automatisk oversættelse gør det muligt for personer med `auto-oversættelse`  rettigheder at få alle meddelelser automatisk oversat til deres valgte sprog. Gebyrer kan blive påført.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_Microsoft": "Microsoft",
   "AutoTranslate_Microsoft_API_Key": "OCP-APIM-abonnement-Key",

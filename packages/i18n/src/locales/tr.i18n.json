@@ -396,6 +396,7 @@
   "AutoTranslate_DeepL": "DeepL",
   "AutoTranslate_Enabled": "Otomatik Çeviriyi etkinleştir",
   "AutoTranslate_Enabled_Description": "`Otomatik çeviri`  özelliğini etkinleştirmek,  otomatik olarak tercüme ettiren kişilerin tüm iletilerin otomatik olarak seçilen dile çevrilmesini sağlar. Ücretler geçerli olabilir.",
+  "AutoTranslate_AWS": "AWS",
   "AutoTranslate_Google": "Google",
   "AutoTranslate_ServiceProvider": "Hizmet Sağlayıcı",
   "Auto_Load_Images": "Görseller Otomatik Olarak Yüklensin",

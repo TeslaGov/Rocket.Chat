@@ -9,6 +9,7 @@ import './methods/getSupportedLanguages';
 import './methods/saveSettings';
 import './methods/translateMessage';
 import './googleTranslate';
+import '.awsTranslate'
 import './deeplTranslate';
 import './msTranslate';
 import './methods/getProviderUiMetadata';

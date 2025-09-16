@@ -263,6 +263,10 @@ export const createMessageSettings = () =>
 					i18nLabel: 'AutoTranslate_Google',
 				},
 				{
+					key: 'aws-translate',
+					i18nLabel: 'AutoTranslate_AWS',
+				},
+				{
 					key: 'deepl-translate',
 					i18nLabel: 'AutoTranslate_DeepL',
 				},
@@ -290,6 +294,60 @@ export const createMessageSettings = () =>
 				{
 					_id: 'AutoTranslate_ServiceProvider',
 					value: 'google-translate',
+				},
+			],
+		});
+
+		await this.add('AutoTranslate_AWSAccessKeyId', '', {
+			type: 'string',
+			group: 'Message',
+			section: 'AutoTranslate_AWS',
+			public: false,
+			i18nLabel: 'AutoTranslate_AWSAccessKeyId',
+			enableQuery: [
+				{
+					_id: 'AutoTranslate_Enabled',
+					value: true,
+				},
+				{
+					_id: 'AutoTranslate_ServiceProvider',
+					value: 'aws-translate',
+				},
+			],
+		});
+
+		await this.add('AutoTranslate_AWSSecretAccessKey', '', {
+			type: 'string',
+			group: 'Message',
+			section: 'AutoTranslate_AWS',
+			public: false,
+			i18nLabel: 'AutoTranslate_AWSSecretAccessKey',
+			enableQuery: [
+				{
+					_id: 'AutoTranslate_Enabled',
+					value: true,
+				},
+				{
+					_id: 'AutoTranslate_ServiceProvider',
+					value: 'aws-translate',
+				},
+			],
+		});
+
+		await this.add('AutoTranslate_AWSRegion', '', {
+			type: 'string',
+			group: 'Message',
+			section: 'AutoTranslate_AWS',
+			public: false,
+			i18nLabel: 'AutoTranslate_AWSRegion',
+			enableQuery: [
+				{
+					_id: 'AutoTranslate_Enabled',
+					value: true,
+				},
+				{
+					_id: 'AutoTranslate_ServiceProvider',
+					value: 'aws-translate',
 				},
 			],
 		});

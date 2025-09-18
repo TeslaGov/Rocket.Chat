@@ -32,32 +32,31 @@ class AwsAutoTranslate extends AutoTranslate {
 		super();
 		this.name = 'aws-translate';
 
+		const updateClient = () => {
+			if (this.accessKeyId && this.secretAccessKey && this.region) {
+				const credentials = new AWS.Credentials(this.accessKeyId, this.secretAccessKey);
+
+				this.client = new Translate({
+					apiVersion,
+					region: this.region,
+					credentials,
+				});
+			}
+		};
+
 		settings.watch<string>('AutoTranslate_AWSAccessKeyId', (value) => {
 			this.accessKeyId = value;
-
-			if (this.accessKeyId && this.secretAccessKey) {
-				AWS.config.update({
-					credentials: new AWS.Credentials(this.accessKeyId, this.secretAccessKey),
-				});
-				this.client = new Translate({ apiVersion });
-			}
+			updateClient();
 		});
 
 		settings.watch<string>('AutoTranslate_AWSSecretAccessKey', (value) => {
 			this.secretAccessKey = value;
-
-			if (this.accessKeyId && this.secretAccessKey) {
-				AWS.config.update({
-					credentials: new AWS.Credentials(this.accessKeyId, this.secretAccessKey),
-				});
-				this.client = new Translate({ apiVersion });
-			}
+			updateClient();
 		});
 
 		settings.watch<string>('AutoTranslate_AWSRegion', (value) => {
 			this.region = value;
-			AWS.config.update({ region: this.region });
-			this.client = new Translate({ apiVersion });
+			updateClient();
 		});
 	}
 
@@ -94,11 +93,7 @@ class AwsAutoTranslate extends AutoTranslate {
 	 * @returns {object} code : value pair
 	 */
 	async getSupportedLanguages(target: string): Promise<ISupportedLanguage[]> {
-		await new Promise<void>((resolve, reject) => AWS.config.getCredentials((err) => (err ? reject(err) : resolve())));
-
-		const creds = AWS.config.credentials;
-
-		if (!creds?.accessKeyId || !creds?.secretAccessKey || !AWS.config.region) {
+		if (!this.accessKeyId || !this.secretAccessKey || !this.region) {
 			SystemLogger.error({ msg: 'AWS credentials or region not set.' });
 
 			return [];
@@ -132,7 +127,7 @@ class AwsAutoTranslate extends AutoTranslate {
 	}
 
 	/**
-	 * Send Request to the service provider.
+	 * Send Request REST API call to the service provider.
 	 * Returns translated message for each target language in target languages.
 	 * @private
 	 * @param {object} message
